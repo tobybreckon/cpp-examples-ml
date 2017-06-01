@@ -67,6 +67,14 @@ project(svm2)
 add_executable(./opticaldigits_ex/svm ./opticaldigits_ex/svm.cpp)
 target_link_libraries( ./opticaldigits_ex/svm ${OpenCV_LIBS} )
 
+project(knn)
+add_executable(./opticaldigits_ex/knn ./opticaldigits_ex/knn.cpp)
+target_link_libraries( ./opticaldigits_ex/knn ${OpenCV_LIBS} )
+
+project(knn_weighted)
+add_executable(./opticaldigits_ex/knn_weighted ./opticaldigits_ex/knn_weighted.cpp)
+target_link_libraries( ./opticaldigits_ex/knn_weighted ${OpenCV_LIBS} )
+
 project(normalbayes)
 add_executable(./opticaldigits_ex/normalbayes ./opticaldigits_ex/normalbayes.cpp)
 target_link_libraries( ./opticaldigits_ex/normalbayes ${OpenCV_LIBS} )
