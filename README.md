@@ -1,6 +1,6 @@
 # C++ Machine Learning OpenCV 2.4.x Teaching Examples
 
-OpenCV C/C++ Interface Machine Learning legacy 2.4.x interface examples used for teaching, instruction and reference over the years (2006-2010).
+OpenCV C/C++ Interface Machine Learning legacy 2.4.x interface examples used for teaching, instruction and reference over the years (2010-2012).
 
 _Uses older C++ interface to OpenCV ML library, with additional code - as these examples pre-date the new C++ OpenCV 3.x ML interface_
 
