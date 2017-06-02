@@ -20,8 +20,8 @@ IF ( WIN32 )
 ENDIF ( WIN32 )
 
 find_package( OpenCV 2.4.13 REQUIRED )
-MESSAGE ( "OPENCV CONFIG" )
-MESSAGE ( ${OpenCV_LIBS} )
+# MESSAGE ( "OPENCV CONFIG" )
+# MESSAGE ( ${OpenCV_LIBS} )
 
 project(decisiontree)
 add_executable(./handwritten_ex/decisiontree ./handwritten_ex/decisiontree.cpp)
