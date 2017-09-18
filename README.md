@@ -1,7 +1,6 @@
 # C++ Machine Learning OpenCV 2.4.x Teaching Examples
 
 OpenCV C/C++ Interface Machine Learning legacy 2.4.x interface examples used for teaching, instruction and reference over the years (2010-2013) -
-_(that for a long time, the in absence of other fully worked examples for the OpenCV machine learning components became the de facto reference for the use of these OpenCV routines)_
 
 **Uses older C++ interface to OpenCV ML library, with additional code** - _as these examples pre-date the new C++ OpenCV 3.x ML interface._
 
@@ -13,9 +12,11 @@ N.B. due to changes in the OpenCV API _these do not generically work with OpenCV
 
 ### Background:
 
+If I taught you between 2010 and 2013 at [Cranfield University](http://www.cranfield.ac.uk) or [ESTIA](http://www.estia.fr) - these are the C++ examples from class.
+
 Demo source code is provided _"as is"_ to aid your learning and understanding.
 
-If I taught you between 2006 and 2013 at [Cranfield University](http://www.cranfield.ac.uk) or [ESTIA](http://www.estia.fr) - these are the examples from class.
+_For a long time, the in absence of other fully worked examples for the OpenCV machine learning components became the de facto reference for the use of these OpenCV routines (any conceptual errors or bad choices of parameters made here have propagated widely)._
 
 ---
 
@@ -43,7 +44,7 @@ cd <sub directory of one of the examples>
 ./<insert name of executable>
 ```
 
-The genetic algorithm (GA; inside directory ga_ex/) example runs with a webcam connected or from a command line supplied video file of a format OpenCV supports on your system (otherwise edit the code to provide your own image source). _N.B._ you may need to change the line near the top that specifies the camera device to use on some examples below - change "0" if you have one webcam, I have it set to "1" to skip my built-in laptop webcam and use the connected USB camera.
+The genetic algorithm (GA; inside directory ga_ex/) example runs with a webcam connected or from a command line supplied video file of a format OpenCV supports on your system (otherwise edit the code to provide your own image source). _N.B._ you may need to change the line near the top that specifies the camera device to use on this example - change "0" if you have one webcam, I have it set to "1" to skip my built-in laptop webcam and use the connected USB camera.
 
 ---
 
