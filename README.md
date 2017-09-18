@@ -16,7 +16,9 @@ N.B. due to changes in the OpenCV API _these do not generically work with OpenCV
 Demo source code is provided _"as is"_ to aid your learning and understanding.
 
 If I taught you between 2006 and 2013 at [Cranfield University](http://www.cranfield.ac.uk) or [ESTIA](http://www.estia.fr) - these are the examples from class.
+
 ---
+
 ### How to download and run:
 
 In each sub-directory:
@@ -55,6 +57,7 @@ If referencing these examples in your own work please use:
   address =      {Bedfordshire, UK},
 }
 ```
+
 ---
 
 If you find any bugs please raise an issue (or better still submit a pull request, please) - toby.breckon@durham.ac.uk
