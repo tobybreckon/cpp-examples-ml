@@ -26,6 +26,8 @@ In each sub-directory:
 + .test file - the data to be used for testing (CSV file format)
 + .xml, .yml - example data files for testing some tools
 
+All dataset examples are taken and reproduced from the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/).
+
 ---
 
 If referencing these examples in your own work please use:
